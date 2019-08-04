@@ -1,0 +1,58 @@
+.blimg{
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-radius: 10%;
+    display: block;
+}
+.blcard{
+    margin-top:55px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.blanil{
+    position:relative;
+    animation-name: card-animationl;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes card-animationl {
+    0%{
+        left: -1000px;
+    }
+    50%{
+        left: 5px;
+    }
+    100%{
+        left: auto;
+    }
+
+}
+
+.blanir{
+    position:relative;
+    animation-name: card-animationr;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes card-animationr {
+    0%{
+        right: -1000px;
+    }
+    50%{
+        right: 5px;
+    }
+    100%{
+        right: auto;
+    }
+
+}
+
+bla{
+    margin-right: 0;
+}
+
