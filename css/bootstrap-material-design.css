@@ -2754,7 +2754,7 @@
     display: block; }
   
   .navbar {
-    position: fixed;
+  
     display: flex;
     flex-wrap: wrap;
     align-items: center;
